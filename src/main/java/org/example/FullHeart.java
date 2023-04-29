@@ -26,7 +26,7 @@ public class FullHeart extends JPanel {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Tam Kalp");
+        JFrame frame = new JFrame("Kalp");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 300);
         frame.setLocationRelativeTo(null);
@@ -34,7 +34,7 @@ public class FullHeart extends JPanel {
         frame.add(fullHeart);
         frame.setVisible(true);
 
-        
+
     }
 }
 
